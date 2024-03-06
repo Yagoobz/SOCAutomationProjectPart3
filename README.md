@@ -23,7 +23,7 @@ To ensure that TheHive's user and group have access to a specific file path, I e
 
 After accessing the configuration file at "/etc/thehive/application.conf" with "nano /etc/thehive/application.conf," I update the storage hostname and index search hostname to TheHive's IP address, followed by modifying the application's local host to TheHive's IP address. With these changes made, I proceed to start and enable TheHive using "systemctl start ..." and verify the service's status for confirmation.
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/SOCAutomationLabPart3/assets/145611184/7bb106ac-098e-45a9-8162-93f9bf385685" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 
 
