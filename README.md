@@ -16,3 +16,8 @@ Following the configuration changes in Cassandra, I halt the Cassandra service u
 To set up Elasticsearch, which manages data indices, I navigate to the configuration files using "nano /etc/elasticsearch/elasticsearch.yml." Within the configuration, I remove the comment for the cluster name and change it to "the hive," uncomment the node name, uncomment the network host and input TheHive's public IP address, and uncomment the cluster initial master nodes, removing node 2 since I don't have a second node. Then, I start the Elasticsearch service with "systemctl start ...," and enable it using "systemctl enable ...". Finally, I verify if the service is up and running, and indeed it is. We're good to go!
 <br />
 <img src="https://github.com/Yagoobz/SOCAutomationLabPart3/assets/145611184/1d9ec576-fba9-4047-a5b7-94915dfa1300" height="30%" width="70%" alt="Disk Sanitization Steps"/>
+
+To ensure that TheHive's user and group have access to a specific file path, I execute the command "ls -la /opt/thp." This verifies the permissions of the directory that TheHive requires access to. If I find that the root has access to TheHive directory, I need to change that by running "chown -R thehive:thehive /opt/thp." Upon rechecking the permissions using "ls -la /opt/thp," I confirm that TheHive is now both the user and the group with access. Now, I'm ready to proceed with configuring TheHive's configuration file.
+<br />
+<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+
