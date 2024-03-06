@@ -15,4 +15,4 @@ Following the configuration changes in Cassandra, I halt the Cassandra service u
 
 To set up Elasticsearch, which manages data indices, I navigate to the configuration files using "nano /etc/elasticsearch/elasticsearch.yml." Within the configuration, I remove the comment for the cluster name and change it to "the hive," uncomment the node name, uncomment the network host and input TheHive's public IP address, and uncomment the cluster initial master nodes, removing node 2 since I don't have a second node. Then, I start the Elasticsearch service with "systemctl start ...," and enable it using "systemctl enable ...". Finally, I verify if the service is up and running, and indeed it is. We're good to go!
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/SOCAutomationLabPart3/assets/145611184/1d9ec576-fba9-4047-a5b7-94915dfa1300" height="30%" width="70%" alt="Disk Sanitization Steps"/>
