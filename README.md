@@ -27,7 +27,7 @@ After accessing the configuration file at "/etc/thehive/application.conf" with "
 
 With all three services - Cassandra, Elasticsearch, and TheHive - up and running, I attempt to access TheHive using its public IP address followed by port 9000. Upon entering the default username and password, I successfully gain access to TheHive. Mission accomplished!
 <br />
-<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Yagoobz/SOCAutomationLabPart3/assets/145611184/795ec3ab-c3f9-4a83-989f-8e7602bf8e19" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
 
 
