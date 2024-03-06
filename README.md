@@ -29,12 +29,6 @@ With all three services - Cassandra, Elasticsearch, and TheHive - up and running
 <br />
 <img src="https://github.com/Yagoobz/SOCAutomationLabPart3/assets/145611184/795ec3ab-c3f9-4a83-989f-8e7602bf8e19" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
-
-
-
-
-
-
-
-
-
+When I returned to my Windows cloud machine, I encountered an issue accessing the Wazuh dashboard due to a peculiar cloud server setting. To work around this, I opted to create a new Windows 10 virtual machine on VMware, running on an older MacBook with an Intel chip, as it does not face the compatibility challenges of Apple's M Series chips with virtual machines. After reinstalling Sysmon, everything was operational again, and VMware proved to run more smoothly compared to the AWS server. With access restored, I logged into the Wazuh dashboard and proceeded to create a new agent. Upon creation, I received a command to download in Windows PowerShell, and to initiate the service, I executed "net start wazuhsvc." Verifying in the services, Wazuh was indeed running as expected.
+<br />
+<img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
