@@ -1,4 +1,4 @@
-<h2>SOC Automation Lab Part 3</h2>
+<h2>SOC Automation Project Part 3</h2>
 
 <h3>Objectives</h3>
 - Configure TheHive & Wazuh Server  
